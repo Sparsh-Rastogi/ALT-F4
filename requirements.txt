@@ -1,0 +1,4 @@
+pillow
+streamlit
+mira-sdk
+python-dotenv
