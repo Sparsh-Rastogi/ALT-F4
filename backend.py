@@ -8,7 +8,7 @@ def give_response(prompt):
     YOUR_API_KEY = os.getenv("OPENROUTER_API_KEY")
     # Initialize the client
     client = MiraClient(config={"API_KEY": YOUR_API_KEY})
-
+    prompt = prompt+ " Also recommend leetcode or codeforces questions with link if necessary."
     version = "1.0.0"
     input_data = {
             "prompt": prompt
